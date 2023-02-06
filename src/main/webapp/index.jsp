@@ -7,7 +7,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <title>Java Web Application</title>
+    <title>Simple Java Web Application</title>
     <style>
         body {
             font-family: 'Open Sans', sans-serif;
@@ -40,14 +40,14 @@
     Dtime = Time.toString();
 %>
 
-<h2> Server Info</h2>
+<h2>Server Info</h2>
 <hr>
 
 <div>
     <h4>Host Name : <span><%=  hostName %></span></h4>
     <h4>IP Address: <span><%=  ipAddr %></span></h4>
     <h4>JVM Name: <span><%=  serverName %></span></h4>
-    <h4> Date & Time: <span> <%= Dtime %></h4>
+    <h4>Date & Time: <span> <%= Dtime %></h4>
 </div>
 
 <h4>HTTP Request URL : <span><%= request.getRequestURL() %></span></h4>
